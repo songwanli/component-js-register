@@ -1,0 +1,20 @@
+{
+  "name": "component-js-register",
+  "homepage": "https://github.com/songwanli/component-js-register",
+  "authors": [
+    "swan <375683328@qq.com>"
+  ],
+  "description": "register component",
+  "main": "",
+  "keywords": [
+    "register"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

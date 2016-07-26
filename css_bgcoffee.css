@@ -1,76 +1,15 @@
-body {
-	font-family:Arial,Microsoft YaHei !important;
-}
 .fw-page-content {
     position: absolute;
     width:100%;
     font-size: 18px;
     color: #ADAEAB;
-
-    background: url('../../app/component-js-register/image/bg@3x.png') no-repeat;
+    background: url('../component-js-register/image/bg@3x.png') no-repeat ;
     background-size: 100% 100%;
     overflow-x: hidden;
     overflow-y: auto;
     z-index: 100;
     -webkit-overflow-scrolling:touch;
     padding-top: 44px;
-}
-.fw-page-content_white {
-    position: absolute;
-    width:100%;
-    font-size: 18px;
-    color: #ADAEAB;
-    background: url('../../app/component-js-register/image/bg_xiaoshouqingdan@3x.png') no-repeat ;
-    background-size: 100% 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-    z-index: 100;
-    -webkit-overflow-scrolling:touch;
-    padding-top: 44px;
-}
-.fw-page-content_white2 {
-    position: absolute;
-    width:100%;
-    font-size: 18px;
-    color: #ADAEAB;
-    background: #fff ;
-    overflow-x: hidden;
-    overflow-y: auto;
-    z-index: 100;
-    -webkit-overflow-scrolling:touch;
-    padding-top: 44px;
-}
-.yellow_div {
-    width: 100%;;
-    height:100px;
-    padding: 13.5px 0 11.5px 25px;
-    background:#E79F35;
-    background-image: -webkit-gradient(
-            linear,50% 0,0 100%,
-            from(transparent),
-            color-stop(.5,transparent),
-            color-stop(.5,#fff),
-            to(#fff)
-    ),
-    -webkit-gradient(
-            linear,50% 0,100% 100%,
-            from(transparent),
-            color-stop(.5,transparent),
-            color-stop(.5,#fff),
-            to(#fff)
-    );
-    background-size:20px 10px;
-    background-repeat:repeat-x;
-    background-position:0 100%;
-}
-
-.shop_name {
-    color: #fff;
-    font-size: 22px;
-}
-.trading_time {
-    color: #F4D6A9;
-    font-size: 14px;
 }
 .tc {
     text-align: center;
@@ -110,36 +49,11 @@ body {
     width: 44px;
     padding: 0 11px 0 17px;
 }
-.common_logo img {
-    width: auto;
-    height: auto;
-}
 .common_form_cont {
     margin-left: 44px;
 }
 .common_form_cont_10 {
     margin-left: 10px;
-}
-.requestyzm_out {
-    float: right;
-    width: 33%;
-    min-width: 101px;
-    max-width: 100px;
-    text-align: right;
-    position: absolute;
-    top: -1px;
-    right: 2px;
-}
-.command_button_sms {
-    color: #342A21;
-    background-color: #ADAEAB;
-    font-size: 18px;
-    border-radius: 3px;
-    width: 100%;
-    height: 40px;
-    line-height: 40px;
-    border: 0;
-    display: inline-block;
 }
 .command_button_sms:active {
     background-color: #878787;
@@ -150,21 +64,14 @@ body {
     background-color: transparent;
     border: 0;
 }
-.common_title {
-    padding: 10px 0;
-}
+
 .fw-placeholder {
     color: #ADAEAB;
     display: block;
     height: 100%;
     line-height: 48px;
 }
-.fw-text {
-    color: #ADAEAB;
-    display: block;
-    height: 100%;
-    line-height: 48px;
-}
+
 input[type=number] {
     -moz-appearance:textfield;
     -webkit-appearance:textfield;
@@ -175,13 +82,12 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
 .common_form_input_num {
     height: auto;
 }
+.common_title {
+    padding: 10px 0;
+}
 .logo {
     margin: 4px auto 68px auto;
     text-align: center;
-}
-.logo img {
-    width: 83px;
-    height:48px;
 }
 .fs22 {
     font-size: 22px;
@@ -189,21 +95,7 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
     text-align: center;
     margin: 24px auto;
 }
-.fs14 {
-    font-size: 14px;
-    color: #C6C6C6;
-    text-align: center;
-    margin: 58px auto 48px auto;
-}
 .result_img {
     text-align: center;
 }
-.result_img img {
-    width: 128px;
-    padding-top: 125px;
-}
-.gary14 {
-    color:#333;
-    font-size: 14px;
-    padding: 20px 12px;
-}
+

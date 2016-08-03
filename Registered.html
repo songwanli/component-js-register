@@ -133,7 +133,11 @@
             "registered": new Model.Request(
                     null,
                     {
+<<<<<<< HEAD
                         url: "mockdata-component-js-register.do?act=5080003",
+=======
+                        url: "cbframework.do?act=5080003",
+>>>>>>> 74522679b34b8e5882595ab39f332fded5605424
                         filter: function (data) {
                             Bridge.dismissDialog();
                             if (data.RETCODE === "AAAAAAA") {
@@ -155,7 +159,11 @@
             "getresult": new Model.Request(
                     null,
                     {
+<<<<<<< HEAD
                         url: "mockdata-component-js-register.do?act=5080031",
+=======
+                        url: "cbframework.do?act=5080031",
+>>>>>>> 74522679b34b8e5882595ab39f332fded5605424
                         filter: function (data) {
                             Bridge.dismissDialog();
                             if (data.RETCODE === "AAAAAAA") {
@@ -182,12 +190,18 @@
                 var CODEReg = new RegExp("^[a-zA-Z0-9]{6}$");
                 var passwordtext = "" + data.PASSWORD;
                 var pay_passwordtext = "" + data.PAY_PASSWORD;
+<<<<<<< HEAD
 
                 if (data.USERNAME == "" || data.USERNAME == undefined) {
                     Bridge.alert("手机号不能为空!");
                 }
     /*
                 else if (!username.test(data.USERNAME)) {
+=======
+                if (data.USERNAME == "" || data.USERNAME == undefined) {
+                    Bridge.alert("手机号不能为空!");
+                }else if (!username.test(data.USERNAME)) {
+>>>>>>> 74522679b34b8e5882595ab39f332fded5605424
                     Bridge.alert("手机号格式不正确!");
                 }else if(data.PASSWORD == "" || data.PASSWORD == undefined) {
                     Bridge.alert("密码不能为空!");
@@ -200,7 +214,10 @@
                 }else if(pay_passwordtext.length !== 96) {
                     Bridge.alert("支付密码为6位!");
                 }
+<<<<<<< HEAD
                 */
+=======
+>>>>>>> 74522679b34b8e5882595ab39f332fded5605424
                 else if(data.PAY_PASSWORD2 !== data.PAY_PASSWORD) {
                     Bridge.alert("两次支付密码输入不一致!");
                 }else{
